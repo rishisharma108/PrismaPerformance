@@ -1,0 +1,213 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.blazemeter</groupId>
+    <artifactId>mvn-jmeter</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>maven-jmeter-demo</name>
+    <url>http://maven.apache.org</url>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.lazerycode.jmeter</groupId>
+                <artifactId>jmeter-maven-plugin</artifactId>
+                <version>1.10.0</version>
+				
+                <executions>
+                    <execution>
+                        <id>PrismaPerformanceTest</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>jmeter</goal>
+                        </goals>
+						<configuration>
+							<testFilesDirectory>${WORKSPACE}/TestScripts/</testFilesDirectory>
+							<jmeterPlugins>
+                                    <plugin>
+                                        <groupId>kg.apc</groupId>
+                                        <artifactId>jmeter-plugins</artifactId>
+                                    </plugin>
+									 <plugin>
+										<groupId>kg.apc</groupId>
+										<artifactId>jmeter-plugins-extras-libs</artifactId>
+                                    </plugin>
+									<plugin>
+										<groupId>oracle</groupId>
+										<artifactId>jdbc</artifactId>
+                                    </plugin>
+							</jmeterPlugins>
+						</configuration>
+                    </execution>
+                </executions>
+				<dependencies>
+                        <dependency>
+                            <groupId>com.github.fge</groupId>
+                            <artifactId>jackson-coreutils</artifactId>
+                            <version>1.6</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>com.fasterxml.jackson.core</groupId>
+                            <artifactId>jackson-core</artifactId>
+                            <version>2.2.3</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.codehaus.jackson</groupId>
+                            <artifactId>jackson-core-asl</artifactId>
+                            <version>1.9.12</version>
+                        </dependency>
+						<dependency>
+							<groupId>kg.apc</groupId>
+							<artifactId>jmeter-plugins-standard</artifactId>
+							<version>1.2.1</version>
+						</dependency>
+						<dependency>
+							<groupId>kg.apc</groupId>
+							<artifactId>jmeter-plugins-extras-libs</artifactId>
+							<version>1.2.1</version>
+						</dependency>
+						<dependency>
+							<groupId>oracle</groupId>
+							<artifactId>jdbc</artifactId>
+							<version>11.2.0.3.1</version>
+						</dependency>
+                    </dependencies>
+                    <configuration>
+                        <testResultsTimestamp>false</testResultsTimestamp>
+                        <overrideRootLogLevel>ERROR</overrideRootLogLevel>
+                        <suppressJMeterOutput>false</suppressJMeterOutput>
+                        <ignoreResultFailures>true</ignoreResultFailures>
+						<propertiesUser> 
+							<test.environment>${test.environment}</test.environment> 
+							<test.keyValue>${test.keyValue}</test.keyValue>
+							<test.fileName>${test.fileName}</test.fileName> 
+						</propertiesUser> 
+                        <propertiesJMeter>
+							<includecontroller.prefix>${WORKSPACE}</includecontroller.prefix>
+                            <jmeter.save.saveservice.assertion_results>all</jmeter.save.saveservice.assertion_results>
+                            <jmeter.save.saveservice.bytes>true</jmeter.save.saveservice.bytes>
+                            <file_format.testlog>${format}</file_format.testlog>
+                            <jmeter.save.saveservice.response_data.on_error>${funcMode}</jmeter.save.saveservice.response_data.on_error>
+                            <jmeter.save.saveservice.response_data>true</jmeter.save.saveservice.response_data>
+                            <jmeter.save.saveservice.samplerData>true</jmeter.save.saveservice.samplerData>
+                            <jmeter.save.saveservice.responseHeaders>true</jmeter.save.saveservice.responseHeaders>
+                            <jmeter.save.saveservice.requestHeaders>true</jmeter.save.saveservice.requestHeaders>
+                            <jmeter.save.saveservice.encoding>true</jmeter.save.saveservice.encoding>
+                            <jmeter.save.saveservice.url>true</jmeter.save.saveservice.url>
+                            <jmeter.save.saveservice.filename>true</jmeter.save.saveservice.filename>
+                            <jmeter.save.saveservice.hostname>true</jmeter.save.saveservice.hostname>
+                            <jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
+                            <jmeter.save.saveservice.sample_count>true</jmeter.save.saveservice.sample_count>
+                            <jmeter.save.saveservice.idle_time>true</jmeter.save.saveservice.idle_time>
+                            <jmeter.save.saveservice.output_format>jtl</jmeter.save.saveservice.output_format>
+                            <jmeter.save.saveservice.assertion_results>all</jmeter.save.saveservice.assertion_results>
+                            <jmeter.save.saveservice.bytes>true</jmeter.save.saveservice.bytes>
+                            <file_format.testlog>${format}</file_format.testlog>
+                            <jmeter.save.saveservice.response_data.on_error>${funcMode}</jmeter.save.saveservice.response_data.on_error>
+
+                        </propertiesJMeter>
+                    </configuration>
+            </plugin>
+			
+			<plugin>
+			  <groupId>com.lazerycode.jmeter</groupId>
+			  <artifactId>jmeter-analysis-maven-plugin</artifactId>
+			   <executions>
+				<execution>
+				  <phase>verify</phase>
+				  <goals>
+					<goal>analyze</goal>
+				  </goals>
+				  <configuration>
+			
+			  
+					<!--
+					An AntPath-Style pattern matching a JMeter XML result file to analyze. Must be a fully qualified path.
+					File may be GZiped, must end in .gz then.
+
+					Default: not set.
+					Required.
+					-->
+					
+					
+					<source>${project.build.directory}/**/*.jtl</source>
+
+					<!--
+					directory where to store analysis result files.
+
+					Default: ${project.build.directory}
+					Required.
+					-->
+					<targetDirectory>${project.build.directory}</targetDirectory>
+					
+					
+				  </configuration>
+				</execution>
+			  </executions>
+			</plugin>
+			
+			<plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>xml-maven-plugin</artifactId>
+                    <version>1.0.1-SNAPSHOT</version>
+                    <executions>
+                        <execution>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>transform</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <transformationSets>
+                            <transformationSet>
+                                <dir>${WORKSPACE}/Results/</dir>
+                                <includes>
+                                    <include>*.jtl</include>
+                                </includes>
+                                <stylesheet>${WORKSPACE}/Templates/jmeter-detail.xsl</stylesheet>
+                                <outputDir>${WORKSPACE}/Results</outputDir>
+                                <fileMappers>
+                                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+                                        <pattern>(.*?)\s(.*?)</pattern>
+                                        <replacement>$1$2</replacement>
+                                        <replaceAll>true</replaceAll>
+                                    </fileMapper>
+                                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                        <targetExtension>.detail.html</targetExtension>
+                                    </fileMapper>
+                                </fileMappers>
+                            </transformationSet>
+                            <transformationSet>
+                                <dir>${project.build.directory}/jmeter/results</dir>
+                                <includes>
+                                    <include>*.jtl</include>
+                                </includes>
+                                <stylesheet>${WORKSPACE}/Templates/jmeter-summary.xsl</stylesheet>
+                                <outputDir>${WORKSPACE}/Results</outputDir>
+                                <fileMappers>
+                                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+                                        <pattern>(.*?)\s(.*?)</pattern>
+                                        <replacement>$1$2</replacement>
+                                        <replaceAll>true</replaceAll>
+
+                                    </fileMapper>
+                                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                        <targetExtension>.summary.html</targetExtension>
+                                    </fileMapper>
+                                </fileMappers>
+                            </transformationSet>
+                        </transformationSets>
+                    </configuration>
+                </plugin>
+		
+        </plugins>
+    </build>
+	
+	<repositories>
+        <repository>
+            <id>nexus</id>
+            <url>http://nexus.rho.dds.net/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+</project>

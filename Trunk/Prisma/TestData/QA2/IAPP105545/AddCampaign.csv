@@ -1,0 +1,2 @@
+id,version,startDate,endDate,budget,ClientName,clientCode,mediaName,ProductName,estimateName,buyType,ReferenceId,campaigntype,providerInstanceId,providerLandingPage,bk1,bk2,bk3,productCode,ck1,esn,buyTypeId,currency,agencyMediaId,action,status,idNum,rowNum,mediumId,agencyId,productId,estimateId,clientId
+0,0,2016-01-01,2016-12-31,9000000,PERFCLIENT,PER,Interactive,PERFPRODUCT,EST-JAN1-DEC31-2016- TEST,Display,23456,Weighted,3123,http://www.dcnsj1234.com,USSJIPER,USSJIPERPE1,USSJIPER,PE1,USSJIPER,001,1,USD,21,ADD,false,0,0,1,21,192323955,67344249,61405060

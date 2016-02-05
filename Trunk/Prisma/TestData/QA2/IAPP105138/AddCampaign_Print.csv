@@ -1,0 +1,2 @@
+id,version,startDate,endDate,budget,ClientName,clientCode,mediaName,ProductName,estimateName,buyType,ReferenceId,campaign,providerInstanceId,providerLandingPage,bk1,status,isDefault,pc,budgetCurrency,esn,amId,buyTypeId,action,rowNum,rowId,bk2,bk3,bk4,bk5,bk6,currency,budgetId,bc,totalClientCostId,isBudgetByMedium
+0,0,2015-01-01,2015-12-31,90000,AMI,AMI,PRINT,AMI01,2015 CAMPAIGN,Display,23456,Even,3813,www.dcnsj12.com,UK|D1|P|AMI,false,TRUE,SHO,USD,20,1,11,ADD,0,0,USSJNAE1,USSJSAE1,USSJNAE1SHO005,USSJNAE1SHO,USSJMAE1,GBP,3,AGENCY,1,false

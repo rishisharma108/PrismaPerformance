@@ -1,0 +1,2 @@
+id,version,startDate,endDate,budget,ClientName,clientCode,mediaName,ProductName,estimateName,buyType,ReferenceId,campaigntype,providerInstanceId,providerLandingPage,bk1,bk2,bk3,productCode,ck1,esn,buyTypeId,currency,agencyMediaId,action,status,idNum,rowNum,mediumId,agencyMedia,productId,estimateId,clientId
+0,0,2015-01-01,2015-12-31,9000,AUTO-CLIENT-1,100,Interactive,AUTO-PD-1,EST4-JAN1-DE31-2015,Display,23456,Even,262,www.demo.com,USSJI100,USSJI100002,USSJI100002004,002,USSJI100,004,1,USD,1,ADD,0,0,1,1,21,11923650,59984014,2433319

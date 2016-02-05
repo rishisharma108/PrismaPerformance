@@ -1,0 +1,2 @@
+id,version,startDate,endDate,budget,ClientName,clientCode,mediaName,ProductName,estimateName,buyType,ReferenceId,campaigntype,providerInstanceId,providerLandingPage,bk1,bk2,bk3,productCode,ck1,esn,buyTypeId,currency,agencyMediaId,action,status,idNum,rowNum,mediumId,agencyId
+0,0,2015-01-01,2015-12-31,90000,AUTO-CLIENT-2,002,Interactive,AUTO-PD-1,EST5-JAN1-DEC31-2015,Display,23456,Even,3813,www.dcnsj12.com,USSJI002,USSJI002001,USSJI002001005,001,USSJI002,005,1,USD,1,ADD,false,0,0,1,1

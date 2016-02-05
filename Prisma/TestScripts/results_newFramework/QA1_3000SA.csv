@@ -1,0 +1,77 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,KB/sec
+/cas/v1/tickets-qa1,1,2766,2766,2766,2766,2766,2766,2766,0.00%,.4,.5
+/viewport-home/,1,373,373,373,373,373,373,373,0.00%,2.7,6.1
+/ideskos-locale/bundle/com.mediaocean.viewport.banner/locale/22,1,477,477,477,477,477,477,477,0.00%,2.1,32.4
+/ideskos-locale/bundle/com.mediaocean.viewport-app/locale/22,1,353,353,353,353,353,353,353,0.00%,2.8,34.9
+/viewport/login2/,1,304,304,304,304,304,304,304,0.00%,3.3,2.2
+/ideskos-locale/bundle/com.mediaocean.viewport.login2/locale/22,1,292,292,292,292,292,292,292,0.00%,3.4,91.7
+/ideskos-locale/locales/active,1,230,230,230,230,230,230,230,0.00%,4.3,29.5
+Welcome Page,1,2029,2029,2029,2029,2029,2029,2029,0.00%,.5,31.7
+/cas/ticketStatus,1,305,305,305,305,305,305,305,0.00%,3.3,1.2
+/ideskos-viewport/config/resources,1,307,307,307,307,307,307,307,0.00%,3.3,2.6
+/ideskos-viewport/user/current,2,526,218,835,835,835,218,835,0.00%,.1,.4
+/cas/login-idesk viewport,1,1078,1078,1078,1078,1078,1078,1078,0.00%,.9,.6
+/ideskos-viewport/j_spring_cas_security_check,1,1100,1100,1100,1100,1100,1100,1100,0.00%,.9,3.9
+/idesk/prisma-home/,1,208,208,208,208,208,208,208,0.00%,4.8,5.0
+/bi-services/api/syncUser,2,481,407,556,556,556,407,556,0.00%,.2,.2
+/prisma-api/secure/rest/marketplace/status,3,313,261,419,419,419,261,419,0.00%,.1,.1
+/agency-service/secure/user,4,459,298,638,638,638,287,638,0.00%,.1,1.5
+/cas/login-Bi service,1,231,231,231,231,231,231,231,0.00%,4.3,1.3
+/cas/login-Prisma API,1,226,226,226,226,226,226,226,0.00%,4.4,1.3
+/cas/login-Agency service,1,228,228,228,228,228,228,228,0.00%,4.4,3.0
+/ideskos-locale/bundle/IDeskHome/locale/22,1,280,280,280,280,280,280,280,0.00%,3.6,39.9
+/ideskos-locale/bundle/IDeskGWTCore/locale/22,1,507,507,507,507,507,507,507,0.00%,2.0,134.0
+/ideskos-locale/bundle/com.mediaocean.global.common/locale/22,1,518,518,518,518,518,518,518,0.00%,1.9,213.0
+/bi-services/j_spring_cas_security_check,1,577,577,577,577,577,577,577,0.00%,1.7,2.5
+/agency-service/j_spring_cas_security_check,1,6987,6987,6987,6987,6987,6987,6987,0.00%,.1,2.1
+/prisma-api/j_spring_cas_security_check,1,565,565,565,565,565,565,565,0.00%,1.8,1.9
+/prisma-api/secure/rest/marketplace/messages/unread/count,1,313,313,313,313,313,313,313,0.00%,3.2,3.3
+/ideskos-viewport/marketo/email,1,208,208,208,208,208,208,208,0.00%,4.8,2.9
+/ideskos-locale/bundle/PrismaContextHelp/locale/22,1,483,483,483,483,483,483,483,0.00%,2.1,95.6
+/campaign-service/secure/campaign/universe,1,314,314,314,314,314,314,314,0.00%,3.2,1.4
+/campaign-service/secure/alertsSummary/activealerttotals,1,353,353,353,353,353,353,353,0.00%,2.8,1.5
+/campaign-service/secure/campaign/homepage,1,395,395,395,395,395,395,395,0.00%,2.5,3.7
+/campaign-service/secure/campaign/filtercounts,1,391,391,391,391,391,391,391,0.00%,2.6,1.3
+Campaign Home Page,1,19170,19170,19170,19170,19170,19170,19170,0.00%,.1,15.2
+/agency-service/secure/metadata/features,2,263,263,264,264,264,263,264,0.00%,.3,.1
+/ideskos-locale/bundle/com.mediaocean.campaign.details/locale/22,1,274,274,274,274,274,274,274,0.00%,3.6,69.1
+/campaign-service/secure/campaignmetadata,1,279,279,279,279,279,279,279,0.00%,3.6,14.2
+/agency-service/secure/client/findbycodeorname,4,599,521,798,798,798,455,798,0.00%,1.7,3.1
+/agency-service/secure/client,4,370,352,411,411,411,349,411,0.00%,2.7,1.9
+/agency-service/secure/product,1,307,307,307,307,307,307,307,0.00%,3.3,1.3
+/agency-service/secure/estimate,1,314,314,314,314,314,314,314,0.00%,3.2,3.7
+Add Campaign-FullDetails,1,5316,5316,5316,5316,5316,5316,5316,0.00%,.2,6.6
+/campaign-service/secure/campaign[CSV],1,997,997,997,997,997,997,997,0.00%,1.0,.4
+/idesk/prisma-campaign-header/,1,207,207,207,207,207,207,207,0.00%,4.8,3.8
+/prisma/planning/,1,309,309,309,309,309,309,309,0.00%,3.2,2.2
+/ideskos-locale/bundle/DDSGWTCore/locale/22,1,265,265,265,265,265,265,265,0.00%,3.8,18.8
+/campaign-service/secure/campaign/public/CP5LKXH/lastAccessed,1,436,436,436,436,436,436,436,0.00%,2.3,3.8
+/ideskos-locale/bundle/com.mediaocean.prisma.planning/locale/22,1,301,301,301,301,301,301,301,0.00%,3.3,94.9
+/cas/login-Planning Service,1,838,838,838,838,838,838,838,0.00%,1.2,.3
+/prebuy-service-ws/secure/rest/campaign,2,820,420,1221,1221,1221,420,1221,0.00%,.5,.8
+/cas/login-Prebuy Service,1,232,232,232,232,232,232,232,0.00%,4.3,1.3
+/prebuy-service-ws/j_spring_cas_security_check,1,1650,1650,1650,1650,1650,1650,1650,0.00%,.6,1.3
+/campaign-service/secure/campaign/public/CP5LKXH,4,410,400,444,444,444,398,444,0.00%,.0,.0
+/bi-services/api/getReportIds,1,409,409,409,409,409,409,409,0.00%,2.4,7.6
+/prisma-api/secure/rest/preauth,1,207,207,207,207,207,207,207,0.00%,4.8,4.9
+/ideskos-locale/bundle/com.mediaocean.marketplace.shop.bundle/locale/22,1,354,354,354,354,354,354,354,0.00%,2.8,31.4
+/ideskos-locale/bundle/com.mediaocean.marketplace.common/locale/22,1,314,314,314,314,314,314,314,0.00%,3.2,41.9
+/prisma-api/secure/rest/marketplace/offers/filtermetadata,1,642,642,642,642,642,642,642,0.00%,1.6,10.6
+/prisma-api/secure/rest/marketplace/cart,1,271,271,271,271,271,271,271,0.00%,3.7,5.0
+/prisma-api/secure/rest/marketplace/offers,2,266,263,270,270,270,263,270,0.00%,.0,.0
+Click Save-Campaign details,1,11641,11641,11641,11641,11641,11641,11641,0.00%,.1,9.9
+/campaign-service/secure/campaign/5176481/proposalRFP/importrfp?encoding=ISO_8859-1,1,106668,106668,106668,106668,106668,106668,106668,0.00%,.0,.1
+/campaign-service/secure/campaign/5176481/queryservice/mediaplan/hybrid,1,1920,1920,1920,1920,1920,1920,1920,0.00%,.5,2.7
+/campaign-service/secure/campaign/5176481/placement/showTransact,1,239,239,239,239,239,239,239,0.00%,4.2,1.4
+Import Media Plan,1,109896,109896,109896,109896,109896,109896,109896,0.00%,.0,.2
+Debug Sampler,1,4,4,4,4,4,4,4,0.00%,250.0,751.0
+184 /campaign-service/secure/campaign/5176481/bulkedit/list,1,8041,8041,8041,8041,8041,8041,8041,0.00%,.1,.1
+185 /campaign-service/secure/campaign/5176481/bulkedit/placementsAffected[CSV],1,16011,16011,16011,16011,16011,16011,16011,0.00%,.1,.2
+187 /campaign-service/secure/campaign/5176481/bulkedit/apply[CSV],1,44150,44150,44150,44150,44150,44150,44150,0.00%,.0,.2
+188 /campaign-service/secure/campaign/5176481/queryservice/mediaplan/hybrid,1,1591,1591,1591,1591,1591,1591,1591,0.00%,.6,3.3
+189 /campaign-service/secure/campaign/5176481/placement/showTransact,1,232,232,232,232,232,232,232,0.00%,4.3,1.4
+190 /campaign-service/secure/campaign/5176481,1,384,384,384,384,384,384,384,0.00%,2.6,4.8
+192 /campaign-service/secure/campaign/publicforui/CP5LKXH,1,461,461,461,461,461,461,461,0.00%,2.2,4.0
+194 /campaign-service/secure/campaign/publicforui/CP5LKXH,1,525,525,525,525,525,525,525,0.00%,1.9,3.5
+BULK-EDITadd market field as atlanta,1,71395,71395,71395,71395,71395,71395,71395,0.00%,.0,.3
+TOTAL,94,4698,395,5316,16011,106668,4,109896,0.00%,.2,2.6

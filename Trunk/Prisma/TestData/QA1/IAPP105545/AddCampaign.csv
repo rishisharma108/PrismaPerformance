@@ -1,0 +1,2 @@
+id,version,startDate,endDate,budget,ClientName,clientCode,mediaName,ProductName,estimateName,buyType,ReferenceId,campaigntype,providerInstanceId,providerLandingPage,bk1,bk2,bk3,productCode,ck1,esn,buyTypeId,currency,agencyMediaId,action,status,idNum,rowNum,mediumId,agencyId,productId,estimateId,clientId
+0,0,2016-01-01,2016-12-31,9000000,AUTO-CLIENT-2,002,Interactive,AUTO-PD-1,EST1-JAN1-DEC31-2016 - TEST,Display,23456,Weighted,3813,http://www.dcnsj1234.com,USSJI002,USSJI002001,USSJI002001005,001,USSJI002,006,1,USD,1,ADD,false,0,0,1,1,1861440446,4875987,54236687

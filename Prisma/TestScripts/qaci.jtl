@@ -1,0 +1,94 @@
+1453990797832,1663,/cas/v1/tickets-qaci,200,OK,Thread Group 1-1,text,true,1307,1,1,1663
+1453990799514,223,/viewport-home/,200,OK,Thread Group 1-1,text,true,1758,1,1,222
+1453990799738,254,/ideskos-locale/bundle/com.mediaocean.viewport.banner/locale/22,200,OK,Thread Group 1-1,text,true,15726,1,1,251
+1453990799993,256,/ideskos-locale/bundle/com.mediaocean.viewport-app/locale/22,200,OK,Thread Group 1-1,text,true,12742,1,1,248
+1453990800250,210,/viewport/login2/,200,OK,Thread Group 1-1,text,true,691,1,1,210
+1453990800460,265,/ideskos-locale/bundle/com.mediaocean.viewport.login2/locale/22,200,OK,Thread Group 1-1,text,true,27327,1,1,257
+1453990800726,226,/ideskos-locale/locales/active,200,OK,Thread Group 1-1,text,true,5411,1,1,226
+1453990799513,1434,Welcome Page,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,63655,1,1,1414
+1453990800953,212,/cas/ticketStatus,200,OK,Thread Group 1-1,text,true,333,1,1,212
+1453990801166,209,/ideskos-viewport/config/resources,200,OK,Thread Group 1-1,text,true,783,1,1,209
+1453990801376,423,/ideskos-viewport/user/current,200,OK,Thread Group 1-1,text,true,1071,1,1,208
+1453990811810,639,/cas/login-idesk viewport,200,OK,Thread Group 1-1,text,true,683,1,1,639
+1453990813460,882,/ideskos-viewport/j_spring_cas_security_check,200,OK,Thread Group 1-1,text,true,3801,1,1,655
+1453990814343,220,/ideskos-viewport/user/current,200,OK,Thread Group 1-1,text,true,3572,1,1,218
+1453990814565,297,/idesk/prisma-home/,200,OK,Thread Group 1-1,text,true,1068,1,1,297
+1453990814863,498,/bi-services/api/syncUser,200,OK,Thread Group 1-1,text,true,995,1,1,279
+1453990815361,442,/prisma-api/secure/rest/marketplace/status,200,OK,Thread Group 1-1,text,true,981,1,1,233
+1453990815803,426,/agency-service/secure/user,200,OK,Thread Group 1-1,text,true,999,1,1,218
+1453990816533,218,/cas/login-Bi service,200,OK,Thread Group 1-1,text,true,269,1,1,218
+1453990816752,220,/cas/login-Prisma API,200,OK,Thread Group 1-1,text,true,269,1,1,220
+1453990816973,233,/cas/login-Agency service,200,OK,Thread Group 1-1,text,true,682,1,1,233
+1453990817216,250,/ideskos-locale/bundle/IDeskHome/locale/22,200,OK,Thread Group 1-1,text,true,11348,1,1,248
+1453990817467,484,/ideskos-locale/bundle/IDeskGWTCore/locale/22,200,OK,Thread Group 1-1,text,true,69383,1,1,265
+1453990817950,520,/ideskos-locale/bundle/com.mediaocean.global.common/locale/22,200,OK,Thread Group 1-1,text,true,112870,1,1,274
+1453990818471,485,/bi-services/j_spring_cas_security_check,200,OK,Thread Group 1-1,text,true,1224,1,1,250
+1453990818958,6392,/agency-service/j_spring_cas_security_check,200,OK,Thread Group 1-1,text,true,18150,1,1,245
+1453990825352,489,/prisma-api/j_spring_cas_security_check,404,Not Found,Thread Group 1-1,text,false,1433,1,1,274
+1453990825841,232,/bi-services/api/syncUser,200,OK,Thread Group 1-1,text,true,984,1,1,232
+1453990826073,215,/prisma-api/secure/rest/marketplace/status,404,Not Found,Thread Group 1-1,text,false,1182,1,1,215
+1453990826288,215,/prisma-api/secure/rest/marketplace/messages/unread/count,404,Not Found,Thread Group 1-1,text,false,1212,1,1,215
+1453990826503,234,/agency-service/secure/user,200,OK,Thread Group 1-1,text,true,17745,1,1,231
+1453990826738,208,/ideskos-viewport/marketo/email,200,OK,Thread Group 1-1,text,true,556,1,1,208
+1453990826946,462,/ideskos-locale/bundle/PrismaContextHelp/locale/22,200,OK,Thread Group 1-1,text,true,47152,1,1,257
+1453990827409,1114,/campaign-service/secure/campaign/universe,200,OK,Thread Group 1-1,text,true,431,1,1,1114
+1453990828524,3432,/campaign-service/secure/alertsSummary/activealerttotals,200,OK,Thread Group 1-1,text,true,1005,1,1,3432
+1453990831957,4836,/campaign-service/secure/campaign/homepage,200,OK,Thread Group 1-1,text,true,15160,1,1,4399
+1453990836794,4138,/campaign-service/secure/campaign/filtercounts,200,OK,Thread Group 1-1,text,true,537,1,1,4138
+1453990800953,28625,Campaign Home Page,,"Number of samples in transaction : 29, number of failing samples : 3",Thread Group 1-1,,false,315878,1,1,19836
+1453990840933,228,/agency-service/secure/metadata/features,200,OK,Thread Group 1-1,text,true,332,1,1,228
+1453990841162,653,/ideskos-locale/bundle/com.mediaocean.campaign.details/locale/22,200,OK,Thread Group 1-1,text,true,19321,1,1,242
+1453990841815,493,/campaign-service/secure/campaignmetadata,200,OK,Thread Group 1-1,text,true,39730,1,1,281
+1453990842308,274,/agency-service/secure/client/findbycodeorname,200,OK,Thread Group 1-1,text,true,1677,1,1,274
+1453990842583,472,/agency-service/secure/client/findbycodeorname,200,OK,Thread Group 1-1,text,true,13994,1,1,469
+1453990843056,257,/agency-service/secure/client/findbycodeorname,200,OK,Thread Group 1-1,text,true,481,1,1,257
+1453990843313,257,/agency-service/secure/client/findbycodeorname,200,OK,Thread Group 1-1,text,true,481,1,1,257
+1453990843570,247,/agency-service/secure/client,200,OK,Thread Group 1-1,text,true,929,1,1,247
+1453990843817,302,/agency-service/secure/client,200,OK,Thread Group 1-1,text,true,6546,1,1,302
+1453990844120,238,/agency-service/secure/client,200,OK,Thread Group 1-1,text,true,336,1,1,238
+1453990844358,246,/agency-service/secure/client,200,OK,Thread Group 1-1,text,true,336,1,1,246
+1453990844604,239,/agency-service/secure/product,200,OK,Thread Group 1-1,text,true,672,1,1,239
+1453990844844,247,/agency-service/secure/estimate,200,OK,Thread Group 1-1,text,true,9716,1,1,244
+1453990840932,4153,Add Campaign-FullDetails,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,94551,1,1,3524
+1453990845097,430,/campaign-service/secure/campaign[CSV],200,OK,Thread Group 1-1,text,false,446,1,1,430
+1453990845528,209,/idesk/prisma-campaign-header/,200,OK,Thread Group 1-1,text,true,798,1,1,209
+1453990845737,260,/prisma/planning/,200,OK,Thread Group 1-1,text,true,712,1,1,260
+1453990845997,241,/ideskos-locale/bundle/DDSGWTCore/locale/22,200,OK,Thread Group 1-1,text,true,5048,1,1,241
+1453990846239,232,/agency-service/secure/user,200,OK,Thread Group 1-1,text,true,17745,1,1,228
+1453990846472,229,/agency-service/secure/metadata/features,200,OK,Thread Group 1-1,text,true,332,1,1,229
+1453990846702,263,/campaign-service/secure/campaign/public/NO_PublicID/lastAccessed,403,Forbidden,Thread Group 1-1,text,false,9329,1,1,262
+1453990846966,254,/ideskos-locale/bundle/com.mediaocean.prisma.planning/locale/22,200,OK,Thread Group 1-1,text,true,29146,1,1,248
+1453990847529,648,/cas/login-Planning Service,200,OK,Thread Group 1-1,text,true,270,1,1,648
+1453990848178,424,/prebuy-service-ws/secure/rest/campaign,200,OK,Thread Group 1-1,text,true,1002,1,1,213
+1453990848902,234,/cas/login-Prebuy Service,200,OK,Thread Group 1-1,text,true,269,1,1,234
+1453990849137,30723,/prebuy-service-ws/j_spring_cas_security_check,500,Internal Server Error,Thread Group 1-1,text,false,670,1,1,306
+1453990879862,30877,/prebuy-service-ws/secure/rest/campaign,500,Internal Server Error,Thread Group 1-1,text,false,356,1,1,30877
+1453990910740,666,/campaign-service/secure/campaign/public/NO_PublicID,403,Forbidden,Thread Group 1-1,text,false,9260,1,1,663
+1453990911407,103433,/bi-services/api/getReportIds,500,Internal Server Error,Thread Group 1-1,text,false,257,1,1,103433
+1453991014845,628,/prisma-api/secure/rest/preauth,200,OK,Thread Group 1-1,text,true,1025,1,1,628
+1453991015474,237,/agency-service/secure/user,200,OK,Thread Group 1-1,text,true,17854,1,1,235
+1453991015712,226,/prisma-api/secure/rest/marketplace/status,404,Not Found,Thread Group 1-1,text,false,1182,1,1,226
+1453991015938,250,/ideskos-locale/bundle/com.mediaocean.marketplace.shop.bundle/locale/22,200,OK,Thread Group 1-1,text,true,11308,1,1,245
+1453991016188,249,/ideskos-locale/bundle/com.mediaocean.marketplace.common/locale/22,200,OK,Thread Group 1-1,text,true,13439,1,1,246
+1453991016438,248,/campaign-service/secure/campaign/public/NO_PublicID,403,Forbidden,Thread Group 1-1,text,false,9238,1,1,244
+1453991016686,224,/prisma-api/secure/rest/marketplace/offers/filtermetadata,404,Not Found,Thread Group 1-1,text,false,1212,1,1,224
+1453991016911,215,/prisma-api/secure/rest/marketplace/cart,404,Not Found,Thread Group 1-1,text,false,1178,1,1,215
+1453991017127,229,/prisma-api/secure/rest/marketplace/offers,404,Not Found,Thread Group 1-1,text,false,1182,1,1,229
+1453990845091,171629,Click Save-Campaign details,,"Number of samples in transaction : 24, number of failing samples : 11",Thread Group 1-1,,false,133258,1,1,140973
+1453991077364,4888,/campaign-service/secure/campaign/0/proposalRFP/importrfp?encoding=ISO_8859-1,403,Forbidden,Thread Group 1-1,text,false,8804,1,1,4885
+1453991202250,664,/campaign-service/secure/campaign/0/queryservice/mediaplan/hybrid,403,Forbidden,Thread Group 1-1,text,false,10804,1,1,661
+1453991202915,253,/campaign-service/secure/campaign/public/NO_PublicID,403,Forbidden,Thread Group 1-1,text,false,9118,1,1,252
+1453991203169,226,/campaign-service/secure/campaign/0/placement/showTransact,200,OK,Thread Group 1-1,text,true,194,1,1,226
+1453991203396,221,/prisma-api/secure/rest/marketplace/offers,404,Not Found,Thread Group 1-1,text,false,1182,1,1,220
+1453991203617,238,/campaign-service/secure/campaign/public/NO_PublicID,403,Forbidden,Thread Group 1-1,text,false,9118,1,1,237
+1453991017356,6490,Import Media Plan,,"Number of samples in transaction : 6, number of failing samples : 5",Thread Group 1-1,,false,39220,1,1,6481
+1453991203859,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,2678,1,1,0
+1453991203863,231,/campaign-service/secure/campaign/0/bulkedit/list,403,Forbidden,Thread Group 1-1,text,false,8712,1,1,229
+1453991204094,237,/campaign-service/secure/campaign/0/bulkedit/placementsAffected[CSV],403,Forbidden,Thread Group 1-1,text,false,8727,1,1,234
+1453991210332,652,/campaign-service/secure/campaign/0/bulkedit/apply[CSV],403,Forbidden,Thread Group 1-1,text,false,8715,1,1,650
+1453991210985,248,/campaign-service/secure/campaign/0/queryservice/mediaplan/hybrid,403,Forbidden,Thread Group 1-1,text,false,10689,1,1,238
+1453991211233,229,/campaign-service/secure/campaign/0/placement/showTransact,200,OK,Thread Group 1-1,text,true,194,1,1,229
+1453991211463,238,/campaign-service/secure/campaign/0,403,Forbidden,Thread Group 1-1,text,false,9105,1,1,232
+1453991211709,437,/campaign-service/secure/campaign/publicforui/NO_PublicID,403,Forbidden,Thread Group 1-1,text,false,9130,1,1,435
+1453991212146,238,/campaign-service/secure/campaign/publicforui/NO_PublicID,403,Forbidden,Thread Group 1-1,text,false,9129,1,1,235
+1453991203860,2510,BULK-EDITadd market field as atlanta,,"Number of samples in transaction : 8, number of failing samples : 7",Thread Group 1-1,,false,64401,1,1,2482
