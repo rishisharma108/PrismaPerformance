@@ -1,0 +1,6 @@
+businesskey,gvId,gvName,supplierCode,zone,mTc,docType,budget,start,end,recipientEmails,tcCheck,id,version,currencyCode,selfAccepted
+USSJI00001011,22-US4LQV6-6,Zip Seller 101,00001011,123,true,Display,80.00,null,null,testuser1@zippymail.info,false,714,12,USD,false
+USSJI00001010,22-US4LQV6-6,Zip Seller 101,00001010,123,true,Display,80.00,null,null,testuser1@zippymail.info,false,714,12,USD,false
+USSJI00001012,22-US4LQV6-6,Zip Seller 101,00001012,123,true,Display,80.00,null,null,testuser1@zippymail.info,false,714,12,USD,false
+USSJI00001013,22-US4LQV6-6,Zip Seller 101,00001013,123,true,Display,16000.00,null,null,testuser1@zippymail.info,false,714,12,USD,false
+USSJI00001014,22-US4LQV6-6,Zip Seller 101,00001014,123,true,Display,80.00,null,null,testuser1@zippymail.info,false,714,12,USD,false

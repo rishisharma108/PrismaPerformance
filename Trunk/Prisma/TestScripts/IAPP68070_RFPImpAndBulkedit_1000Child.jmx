@@ -11,6 +11,16 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
+      <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+        <boolProp name="resetInterpreter">false</boolProp>
+        <stringProp name="parameters"></stringProp>
+        <stringProp name="filename"></stringProp>
+        <stringProp name="script">${__setProperty(env_name,${env})};
+${__setProperty(app_name,${app})};
+
+</stringProp>
+      </BeanShellPreProcessor>
+      <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Test Env" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="server" elementType="Argument">
@@ -40,12 +50,22 @@
           </elementProp>
           <elementProp name="key" elementType="Argument">
             <stringProp name="Argument.name">key</stringProp>
-            <stringProp name="Argument.value">${__P(key_value)}</stringProp>
+            <stringProp name="Argument.value">IAPP68070</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="env" elementType="Argument">
             <stringProp name="Argument.name">env</stringProp>
-            <stringProp name="Argument.value">${__P(env_name)}</stringProp>
+            <stringProp name="Argument.value">qa1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="file" elementType="Argument">
+            <stringProp name="Argument.name">file</stringProp>
+            <stringProp name="Argument.value">${__P(file,1000)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="type" elementType="Argument">
+            <stringProp name="Argument.name">type</stringProp>
+            <stringProp name="Argument.value">${__P(type,child)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>

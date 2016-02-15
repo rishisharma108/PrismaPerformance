@@ -1024,7 +1024,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/bi-services/api/syncUser" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/bi-services/api/syncUser" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -1093,7 +1093,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/status" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/status" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -1602,7 +1602,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/bi-services/j_spring_cas_security_check" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/bi-services/j_spring_cas_security_check" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="ticket" elementType="HTTPArgument">
@@ -1864,7 +1864,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/status" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/status" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -1928,7 +1928,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/messages/unread/count" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/messages/unread/count" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -3491,7 +3491,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;id&quot;:${id},&quot;version&quot;:${version},&quot;name&quot;:&quot;PerfCampaign${campname}${__Random(1,100000)}&quot;,&quot;campaignFlightStart&quot;:&quot;${startDate}&quot;,&quot;campaignFlightEnd&quot;:&quot;${endDate}&quot;,&quot;campaignState&quot;:{&quot;isMultiCurrencyEnabled&quot;:${status}},&quot;isMultiCurrency&quot;:${status},&quot;budget&quot;:${budget},&quot;isBudgetByMedium&quot;:${status},&quot;campaignAdvertisers&quot;:[{&quot;agencyMediaId&quot;:${agencyMediaId},&quot;client&quot;:{&quot;id&quot;:${clientId},&quot;clientCode&quot;:&quot;${clientCode}&quot;,&quot;clientName&quot;:&quot;${ClientName}&quot;,&quot;businessKey&quot;:&quot;${bk1}&quot;,&quot;mediaType&quot;:&quot;I&quot;,&quot;budgetCurrency&quot;:&quot;${currency}&quot;,&quot;dualCostEnabled&quot;:${status}}}],&quot;crossMediaBudgets&quot;:[{&quot;mediumId&quot;:${mediumId}}],&quot;isBudgetApproved&quot;:${status},&quot;campaignDigital&quot;:{&quot;conversionTags&quot;:[],&quot;distributionType&quot;:&quot;${campaigntype}&quot;,&quot;providerInstanceId&quot;:${providerInstanceId},&quot;providerLandingPage&quot;:&quot;${providerLandingPage}&quot;,&quot;campaignPerformanceMeasures&quot;:[],&quot;isIncludePostImpConvs&quot;:${status}},&quot;ipaEnabled&quot;:${status},&quot;campaignsKPIs&quot;:[],&quot;audience&quot;:[],&quot;campaignBuyDetails&quot;:[{&quot;id&quot;:${idNum},&quot;rowNumber&quot;:${rowNum},&quot;action&quot;:&quot;${action}&quot;,&quot;buyType&quot;:&quot;${buyType}&quot;,&quot;buyTypeId&quot;:${buyTypeId},&quot;agencyMedia&quot;:{&quot;id&quot;:${agencyId},&quot;mediaCode&quot;:&quot;I&quot;,&quot;mediaName&quot;:&quot;${mediaName}&quot;,&quot;multiCurrencyEnabled&quot;:${status}},&quot;client&quot;:{&quot;id&quot;:${clientId},&quot;clientCode&quot;:&quot;${clientCode}&quot;,&quot;clientName&quot;:&quot;${ClientName}&quot;,&quot;businessKey&quot;:&quot;${bk1}&quot;,&quot;mediaType&quot;:&quot;I&quot;,&quot;budgetCurrency&quot;:&quot;${currency}&quot;,&quot;dualCostEnabled&quot;:${status}},&quot;product&quot;:{&quot;id&quot;:${productId},&quot;productCode&quot;:&quot;${productCode}&quot;,&quot;productName&quot;:&quot;${ProductName}&quot;,&quot;businessKey&quot;:&quot;${bk2}&quot;,&quot;clientBusinessKey&quot;:&quot;${ck1}&quot;},&quot;estimate&quot;:{&quot;id&quot;:${estimateId},&quot;estimateCode&quot;:&quot;${esn}&quot;,&quot;estimateName&quot;:&quot;${estimateName}&quot;,&quot;estimateShortName&quot;:&quot;${esn}&quot;,&quot;businessKey&quot;:&quot;${bk3}&quot;,&quot;productBusinessKey&quot;:&quot;${bk2}&quot;,&quot;extractKey&quot;:&quot;&quot;,&quot;lastAction&quot;:&quot;&quot;,&quot;clientBusinessKey&quot;:&quot;&quot;,&quot;estimateStartDate&quot;:&quot;${startDate}&quot;,&quot;estimateEndDate&quot;:&quot;${endDate}&quot;},&quot;assigned&quot;:false,&quot;isCreateEstimateSelected&quot;:${status}}],&quot;campaignReferenceIds&quot;:[{&quot;referenceId&quot;:&quot;1283718237&quot;,&quot;isReadOnly&quot;:${status},&quot;isDefault&quot;:true}],&quot;campaignAdditionalProviders&quot;:[],&quot;campaignAttachments&quot;:[]}</stringProp>
+                  <stringProp name="Argument.value">{&quot;id&quot;:${id},&quot;version&quot;:${version},&quot;name&quot;:&quot;PerfCampaign${campname}${__Random(1,100000)}&quot;,&quot;campaignFlightStart&quot;:&quot;${startDate}&quot;,&quot;campaignFlightEnd&quot;:&quot;${endDate}&quot;,&quot;campaignState&quot;:{&quot;isMultiCurrencyEnabled&quot;:${status}},&quot;isMultiCurrency&quot;:${status},&quot;budget&quot;:${budget},&quot;isBudgetByMedium&quot;:${status},&quot;campaignAdvertisers&quot;:[{&quot;agencyMediaId&quot;:${agencyMediaId},&quot;client&quot;:{&quot;id&quot;:${clientId},&quot;clientCode&quot;:&quot;${clientCode}&quot;,&quot;clientName&quot;:&quot;${ClientName}&quot;,&quot;businessKey&quot;:&quot;${bk1}&quot;,&quot;mediaType&quot;:&quot;I&quot;,&quot;budgetCurrency&quot;:&quot;${currency}&quot;,&quot;dualCostEnabled&quot;:${status}}}],&quot;crossMediaBudgets&quot;:[{&quot;mediumId&quot;:${mediumId}}],&quot;isBudgetApproved&quot;:true,&quot;campaignDigital&quot;:{&quot;conversionTags&quot;:[],&quot;distributionType&quot;:&quot;${campaigntype}&quot;,&quot;providerInstanceId&quot;:${providerInstanceId},&quot;providerLandingPage&quot;:&quot;${providerLandingPage}&quot;,&quot;campaignPerformanceMeasures&quot;:[],&quot;isIncludePostImpConvs&quot;:${status}},&quot;ipaEnabled&quot;:${status},&quot;campaignsKPIs&quot;:[],&quot;audience&quot;:[],&quot;campaignBuyDetails&quot;:[{&quot;id&quot;:${idNum},&quot;rowNumber&quot;:${rowNum},&quot;action&quot;:&quot;${action}&quot;,&quot;buyType&quot;:&quot;${buyType}&quot;,&quot;buyTypeId&quot;:${buyTypeId},&quot;agencyMedia&quot;:{&quot;id&quot;:${agencyId},&quot;mediaCode&quot;:&quot;I&quot;,&quot;mediaName&quot;:&quot;${mediaName}&quot;,&quot;multiCurrencyEnabled&quot;:${status}},&quot;client&quot;:{&quot;id&quot;:${clientId},&quot;clientCode&quot;:&quot;${clientCode}&quot;,&quot;clientName&quot;:&quot;${ClientName}&quot;,&quot;businessKey&quot;:&quot;${bk1}&quot;,&quot;mediaType&quot;:&quot;I&quot;,&quot;budgetCurrency&quot;:&quot;${currency}&quot;,&quot;dualCostEnabled&quot;:${status}},&quot;product&quot;:{&quot;id&quot;:${productId},&quot;productCode&quot;:&quot;${productCode}&quot;,&quot;productName&quot;:&quot;${ProductName}&quot;,&quot;businessKey&quot;:&quot;${bk2}&quot;,&quot;clientBusinessKey&quot;:&quot;${ck1}&quot;},&quot;estimate&quot;:{&quot;id&quot;:${estimateId},&quot;estimateCode&quot;:&quot;${esn}&quot;,&quot;estimateName&quot;:&quot;${estimateName}&quot;,&quot;estimateShortName&quot;:&quot;${esn}&quot;,&quot;businessKey&quot;:&quot;${bk3}&quot;,&quot;productBusinessKey&quot;:&quot;${bk2}&quot;,&quot;extractKey&quot;:&quot;&quot;,&quot;lastAction&quot;:&quot;&quot;,&quot;clientBusinessKey&quot;:&quot;&quot;,&quot;estimateStartDate&quot;:&quot;${startDate}&quot;,&quot;estimateEndDate&quot;:&quot;${endDate}&quot;},&quot;assigned&quot;:false,&quot;isCreateEstimateSelected&quot;:${status}}],&quot;campaignReferenceIds&quot;:[{&quot;referenceId&quot;:&quot;1283718237&quot;,&quot;isReadOnly&quot;:${status},&quot;isDefault&quot;:true}],&quot;campaignAdditionalProviders&quot;:[],&quot;campaignAttachments&quot;:[]}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -4985,7 +4985,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/preauth" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/preauth" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -5099,7 +5099,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/status" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/status" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -5327,7 +5327,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/offers/filtermetadata" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/offers/filtermetadata" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -5386,7 +5386,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/cart" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/cart" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -5519,7 +5519,7 @@
             </SyncTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/offers" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/prisma-api/secure/rest/marketplace/offers" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="campaign-id" elementType="HTTPArgument">

@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="2.8" jmeter="2.13 r1665067">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="SendOrderToGlobalSupplier" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="IAPP 105347" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
-      <boolProp name="TestPlan.serialize_threadgroups">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
+      <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+        <boolProp name="resetInterpreter">false</boolProp>
+        <stringProp name="parameters"></stringProp>
+        <stringProp name="filename"></stringProp>
+        <stringProp name="script">${__setProperty(env_name,${env})};
+${__setProperty(app_name,${app})};
+${__setProperty(lkc,${lkc})};
+
+</stringProp>
+      </BeanShellPreProcessor>
+      <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Test Env" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="server" elementType="Argument">
             <stringProp name="Argument.name">server</stringProp>
             <stringProp name="Argument.value">${__P(env_name)}-prisma-ny.mediaocean.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="threads" elementType="Argument">
+            <stringProp name="Argument.name">threads</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="protocol" elementType="Argument">
@@ -35,17 +51,22 @@
           </elementProp>
           <elementProp name="key" elementType="Argument">
             <stringProp name="Argument.name">key</stringProp>
-            <stringProp name="Argument.value">${__P(key_value)}</stringProp>
+            <stringProp name="Argument.value">105347</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="env" elementType="Argument">
             <stringProp name="Argument.name">env</stringProp>
-            <stringProp name="Argument.value">${__P(env_name)}</stringProp>
+            <stringProp name="Argument.value">qa1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="file" elementType="Argument">
             <stringProp name="Argument.name">file</stringProp>
-            <stringProp name="Argument.value">${__P(file_size)}</stringProp>
+            <stringProp name="Argument.value">${__P(file_size,1000)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="type" elementType="Argument">
+            <stringProp name="Argument.name">type</stringProp>
+            <stringProp name="Argument.value">${__P(type,child)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -114,10 +135,10 @@
             <threadCounts>true</threadCounts>
           </value>
         </objProp>
-        <stringProp name="filename">D:\PerfTestCircuit\Trunk\Prisma\TestScripts\qa1.jtl</stringProp>
+        <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="IAPP 105347 Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -125,8 +146,8 @@
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <longProp name="ThreadGroup.start_time">1402568372000</longProp>
-        <longProp name="ThreadGroup.end_time">1402568372000</longProp>
+        <longProp name="ThreadGroup.start_time">1454954415000</longProp>
+        <longProp name="ThreadGroup.end_time">1454954415000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -220,12 +241,8 @@
           <stringProp name="IncludeController.includepath">/TestFragments/RFPImport_TF.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Bulk Edit Controller" enabled="false">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Bulk Edit Controller" enabled="true">
           <stringProp name="IncludeController.includepath">/TestFragments/BulkEdit_TF.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Send Order Controller" enabled="true">
-          <stringProp name="IncludeController.includepath">/TestFragments/SendOrder_TF.jmx</stringProp>
         </IncludeController>
         <hashTree/>
       </hashTree>

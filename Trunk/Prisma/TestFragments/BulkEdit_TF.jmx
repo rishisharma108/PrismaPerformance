@@ -243,7 +243,7 @@
             </HeaderManager>
             <hashTree/>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Column for edit CSV" enabled="true">
-              <stringProp name="filename">${__P(includecontroller.prefix)}/TestData/${__P(env_name)}/${key}/BulkEdit.csv</stringProp>
+              <stringProp name="filename">${__P(includecontroller.prefix)}/TestData/${__P(env_name)}/Global/BulkEdit.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames"></stringProp>
               <stringProp name="delimiter">,</stringProp>
@@ -315,7 +315,7 @@
             </ConstantTimer>
             <hashTree/>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Value for edit CSV" enabled="true">
-              <stringProp name="filename">${__P(includecontroller.prefix)}/TestData/${__P(env_name)}/${key}/BulkEdit.csv</stringProp>
+              <stringProp name="filename">${__P(includecontroller.prefix)}/TestData/${__P(env_name)}/Global/BulkEdit.csv</stringProp>
               <stringProp name="fileEncoding"></stringProp>
               <stringProp name="variableNames"></stringProp>
               <stringProp name="delimiter">,</stringProp>

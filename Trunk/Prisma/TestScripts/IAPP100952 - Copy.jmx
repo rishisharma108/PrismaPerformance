@@ -75,7 +75,7 @@ ${__setProperty(app_name,${app})};
           </elementProp>
           <elementProp name="loop" elementType="Argument">
             <stringProp name="Argument.name">loop</stringProp>
-            <stringProp name="Argument.value">${__P(loop,1)}</stringProp>
+            <stringProp name="Argument.value">${__P(loop,5)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -156,22 +156,6 @@ ${__setProperty(app_name,${app})};
         <stringProp name="CookieManager.policy">default</stringProp>
         <stringProp name="CookieManager.implementation">org.apache.jmeter.protocol.http.control.HC4CookieHandler</stringProp>
       </CookieManager>
-      <hashTree/>
-      <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="JDBC Connection Configuration" enabled="false">
-        <boolProp name="autocommit">true</boolProp>
-        <stringProp name="checkQuery">Select 1</stringProp>
-        <stringProp name="connectionAge">5000</stringProp>
-        <stringProp name="dataSource">Oracle</stringProp>
-        <stringProp name="dbUrl">jdbc:oracle:thin:@//ny-rac-nprd1.na.rtdom.net:1521/PRSMQA2_D</stringProp>
-        <stringProp name="driver">oracle.jdbc.driver.OracleDriver</stringProp>
-        <boolProp name="keepAlive">true</boolProp>
-        <stringProp name="password">IDESK_APP</stringProp>
-        <stringProp name="poolMax">10</stringProp>
-        <stringProp name="timeout">10000</stringProp>
-        <stringProp name="transactionIsolation">DEFAULT</stringProp>
-        <stringProp name="trimInterval">60000</stringProp>
-        <stringProp name="username">IDESK_APP</stringProp>
-      </JDBCDataSource>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -2340,7 +2324,7 @@ ${__setProperty(app_name,${app})};
           <stringProp name="IncludeController.includepath">/TestFragments/Logout_TF.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Login Include Controller" enabled="true">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Login Include Controller" enabled="false">
           <stringProp name="IncludeController.includepath">/TestFragments/Login_TF.jmx</stringProp>
         </IncludeController>
         <hashTree/>
@@ -6487,20 +6471,12 @@ ${__setProperty(app_name,${app})};
             </hashTree>
           </hashTree>
         </hashTree>
-        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request" enabled="false">
-          <stringProp name="dataSource">Oracle</stringProp>
-          <stringProp name="query">select id from agency_location where company_id like &apos;%SJB%&apos;</stringProp>
-          <stringProp name="queryArguments"></stringProp>
-          <stringProp name="queryArgumentsTypes"></stringProp>
-          <stringProp name="queryTimeout"></stringProp>
-          <stringProp name="queryType">Select Statement</stringProp>
-          <stringProp name="resultSetHandler">Store as String</stringProp>
-          <stringProp name="resultVariable"></stringProp>
-          <stringProp name="variableNames"></stringProp>
-        </JDBCSampler>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Send Order Include Controller" enabled="true">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Send Order Include Controller" enabled="false">
           <stringProp name="IncludeController.includepath">/TestFragments/ImportMultipleRFP_SendOrder_TF.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Send Order Copy Include Controller" enabled="true">
+          <stringProp name="IncludeController.includepath">/TestFragments/ImportMultipleRFP_SendOrder_TF-Copy.jmx</stringProp>
         </IncludeController>
         <hashTree/>
       </hashTree>
